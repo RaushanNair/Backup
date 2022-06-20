@@ -3,5 +3,6 @@ if status is-interactive
 
 	#alias
 	alias backup='/usr/bin/git --git-dir=$HOME/Templates/Backup --work-tree=$HOME'
+	fish_vi_key_bindings
 
 end
