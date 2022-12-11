@@ -18,16 +18,16 @@ call plug#begin()
 
 call plug#end()
 
-" General vim configs set nu
+"" General vim configs set nu
 set nu
 set is
 set hls
 set encoding=utf-8
 syntax enable
 filetype plugin indent on
-"colorscheme molokai
-colorscheme abyss
-"
+colorscheme molokai
+"colorscheme abyss
+
 "Enforces transparency
 hi Normal guibg=NONE ctermbg=NONE 
 
