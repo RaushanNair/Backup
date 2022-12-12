@@ -6,61 +6,61 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Vivaldi
-super + F1
-	vivaldi-stable
-
-# Atom
-super + F2
-	atom
-
-#Inkscape
-super + F3
-    inkscape
-
-#Gimp
-super + F4
-    gimp
-
-#Meld
-super + F5
-    meld
-
-#Vlc
-super + F6
-    vlc --video-on-top
-
-#Virtualbox
-super + F7
-    virtualbox
-
-#Thunar
-super + F8
-    thunar
-
-#Evolution
-super + F9
-    evolution
-
-#Spotify
-super + F10
-    spotify
-
-#Rofi Fullscreen
-super + F11
-    rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
-
-#Rofi
-super + F12
-    rofi -show drun
-
+## Vivaldi
+#super + F1
+#	vivaldi-stable
+#
+## Atom
+#super + F2
+#	atom
+#
+##Inkscape
+#super + F3
+#    inkscape
+#
+##Gimp
+#super + F4
+#    gimp
+#
+##Meld
+#super + F5
+#    meld
+#
+##Vlc
+#super + F6
+#    vlc --video-on-top
+#
+##Virtualbox
+#super + F7
+#    virtualbox
+#
+##Thunar
+#super + F8
+#    thunar
+#
+##Evolution
+#super + F9
+#    evolution
+#
+##Spotify
+#super + F10
+#    spotify
+#
+##Rofi Fullscreen
+#super + F11
+#    rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
+#
+##Rofi
+#super + F12
+#    rofi -show drun
+#
 #################################################################
 # SUPER + ... KEYS
 #################################################################
 
-#Atom
-super + e
-    atom
+##Atom
+#super + e
+#    atom
 
 #Browser
 super + w
@@ -82,17 +82,25 @@ super + x
 super + r
     rofi-theme-selector
 
-#Urxvt
-super + t
-    urxvt
+##Urxvt
+#super + t
+#    urxvt
 
 #Pavucontrol
 super + v
     pavucontrol
 
-#Pragha
-super + m
-    pragha
+#Rofi for dmenu
+super + d
+    rofi -show drun
+
+#File-Manager
+super + e
+    thunar
+
+##Pragha
+#super + m
+#    pragha
 
 #alacritty
 super + Return
@@ -161,9 +169,9 @@ ctrl + alt + b
 ctrl + alt + c
      catfish
 
-#Chromium
-ctrl + alt + g
-    chromium -no-default-browser-check
+##Chromium
+#ctrl + alt + g
+#    chromium -no-default-browser-check
 
 #Firefox
 ctrl + alt + f
@@ -173,13 +181,13 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#archlinux-logout
-ctrl + alt + k
-     archlinux-logout
+##archlinux-logout
+#ctrl + alt + k
+#     archlinux-logout
 
-#archlinux-logout
-ctrl + alt + l
-    archlinux-logout
+##archlinux-logout
+#ctrl + alt + l
+#    archlinux-logout
 
 #Pamac-manager
 ctrl + alt + p
@@ -197,21 +205,21 @@ ctrl + alt + u
 ctrl + alt + r
   rofi-theme-selector
 
-#Spotify
-ctrl + alt + s
-   spotify
+##Spotify
+#ctrl + alt + s
+#   spotify
 
-#alacritty
-ctrl + alt + Return
-    alacritty
+##alacritty
+#ctrl + alt + Return
+#    alacritty
 
-#alacritty
-ctrl + alt + t
-    alacritty
+##alacritty
+#ctrl + alt + t
+#    alacritty
 
-#Vivaldi
-ctrl + alt + v
-    vivaldi-stable
+##Vivaldi
+#ctrl + alt + v
+#    vivaldi-stable
 
 #Xfce4-appfinder
 ctrl + alt + a
@@ -318,9 +326,9 @@ Print
 ctrl + Print
      xfce4-screenshooter
 
-#Gnome-Screenshot
-ctrl + shift + Print
-     gnome-screenshot -i
+##Gnome-Screenshot
+#ctrl + shift + Print
+#     gnome-screenshot -i
 
 
 #################################################################
@@ -427,6 +435,10 @@ super + q
 super + Tab
 	bspc desktop -f '^{1-9,10}'
 
+#Focus selected desktop
+super + shift + Tab
+	bspc desktop -f '^{10,9,8,7,6,5,4,3,2,1}'
+
 # Increase/decrease window gap on focused desktop
 super + bracket{left,right}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
@@ -464,9 +476,9 @@ super + ctrl + space
 super + shift + r
 	~/.config/bspwm/bspwmrc
 
-#kill
-super + shift + q
-	bspc node -c
+##kill
+#super + shift + q
+#	bspc node -c
 
 #Logout
 #super + shift + x
