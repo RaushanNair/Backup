@@ -3,6 +3,7 @@ if status is-interactive
 
 	#alias
 	alias backup='/usr/bin/git --git-dir=$HOME/Templates/Backup --work-tree=$HOME'
+	alias doom="~/.emacs.d/bin/doom"
 	
 	#fish configs
 	fish_vi_key_bindings
