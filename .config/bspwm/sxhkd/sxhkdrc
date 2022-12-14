@@ -80,7 +80,7 @@ super + x
 
 #Edit config files
 super + c
-    $HOME/Templates/Scripts/edit_config.sh
+    fish $HOME/Templates/Scripts/edit_config.sh
 
 ##Urxvt
 #super + t
@@ -320,7 +320,7 @@ ctrl + shift + Escape
 
 #Scrot
 Print
-    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f "$$(xdg-user-dir PICTURES)/Screenshots"'
 
 #screeenshooter
 ctrl + Print
