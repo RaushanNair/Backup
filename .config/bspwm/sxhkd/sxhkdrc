@@ -92,7 +92,7 @@ super + v
 
 #Rofi for dmenu
 super + d
-    rofi -show drun
+    rofi -show drun -show-icons
 
 #File-Manager
 super + e
