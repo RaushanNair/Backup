@@ -67,8 +67,8 @@ super + w
     firefox
 
 #Conky-toggle
-super + c
-    conky-toggle
+#super + c
+#    conky-toggle
 
 #Htop
 #super + h
@@ -78,9 +78,9 @@ super + c
 super + x
     archlinux-logout
 
-#Rofi theme selector
-super + r
-    rofi-theme-selector
+#Edit config files
+super + c
+    $HOME/Templates/Scripts/edit_config.sh
 
 ##Urxvt
 #super + t
