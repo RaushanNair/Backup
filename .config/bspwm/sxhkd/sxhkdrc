@@ -173,9 +173,9 @@ ctrl + alt + c
 #ctrl + alt + g
 #    chromium -no-default-browser-check
 
-#Firefox
-ctrl + alt + f
-     firefox
+##Firefox
+#ctrl + alt + f
+#     firefox
 
 #Nitrogen
 ctrl + alt + i
@@ -190,8 +190,8 @@ ctrl + alt + i
 #    archlinux-logout
 
 #Pamac-manager
-ctrl + alt + p
-    pamac-manager
+#ctrl + alt + p
+#    pamac-manager
 
 #Xfce4-settings-manager
 ctrl + alt + m
@@ -241,31 +241,31 @@ alt + t
     variety -t
 
 #Wallpaper next
-alt + n
+ctrl + alt + n
     variety -n
 
 #Wallpaper previous
-alt + p
+ctrl + alt + p
     variety -p
 
 #Wallpaper favorite
-alt + f
+ctrl + alt + f
     variety -f
 
 #Wallpaper previous
-alt + Left
+ctrl + alt + Left
     variety -p
 
 #Wallpaper next
-alt + Right
+ctrl + alt + Right
     variety -n
 
 #Wallpaper toggle-pause
-alt + Up
+ctrl + alt + Up
     variety --toggle-pause
 
 #Wallpaper resume
-alt + Down
+ctrl + alt + Down
     variety --resume
 
 #Xfce appfinder

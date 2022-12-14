@@ -39,6 +39,8 @@ xsetroot -cursor_name left_ptr &
 
 #conky -c $HOME/.config/bspwm/system-overview &
 run variety &
+emacs --daemon &
+xss-lock $HOME/Templates/Scripts/lockscreen.sh &
 run nm-applet &
 run pamac-tray &
 run xfce4-power-manager &
