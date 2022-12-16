@@ -92,7 +92,8 @@ super + v
 
 #Rofi for dmenu
 super + d
-    rofi -show drun -show-icons
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/hack/scripts/rofi/launcher.rasi
+#    rofi -show drun -show-icons
 
 #File-Manager
 super + e
