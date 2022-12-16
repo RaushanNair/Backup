@@ -62,4 +62,4 @@ run volumeicon &
 #run atom &
 
 ## Set natural scrolling
-xinput set-prop 12 339 1 &
+xinput set-prop 13 339 1 &
