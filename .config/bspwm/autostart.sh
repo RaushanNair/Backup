@@ -61,5 +61,5 @@ run volumeicon &
 #run spotify &
 #run atom &
 
-## Set natural scrolling
-xinput set-prop 13 339 1 &
+## Set touchpad properties
+fish ~/Templates/Scripts/touchpad_settings.sh &
