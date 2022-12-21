@@ -1,0 +1,11 @@
+~/.vimrc
+~/.config/alacritty/alacritty.yml
+~/.config/bspwm/autostart.sh
+~/.config/bspwm/bspwmrc
+~/.config/bspwm/picom.conf
+~/.config/bspwm/sxhkd/sxhkdrc
+~/.config/fish/config.fish
+~/.config/polybar/hack/config.ini
+~/.config/polybar/hack/modules.ini
+~/.config/polybar/hack/user_modules.ini
+~/.config/zathura/zathurarc
