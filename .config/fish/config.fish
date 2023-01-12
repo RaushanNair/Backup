@@ -8,5 +8,7 @@ if status is-interactive
 	#fish configs
 	fish_vi_key_bindings
 	set fish_greeting
+	set PATH $HOME/.cargo/bin $PATH
+	cat ~/.cache/wal/sequences
 
 end
