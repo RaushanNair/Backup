@@ -10,5 +10,7 @@ if status is-interactive
 	set fish_greeting
 	set PATH $HOME/.cargo/bin $PATH
 	cat ~/.cache/wal/sequences
+	alias ls="exa"
+	alias la="exa -la"
 
 end
