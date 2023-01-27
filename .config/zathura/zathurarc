@@ -12,7 +12,7 @@ set recolor true
 # Catppuccin Colors:
 
 set default-fg 			    "#d9e0ee"
-set default-bg 			    "#1e1d2f"
+set default-bg 			    "rgba(0,0,0,0.6)"
 
 set completion-bg		    "#302d41"
 set completion-fg		    "#d9e0ee"
@@ -34,7 +34,7 @@ set notification-warning-fg	"#fae3b0"
 set inputbar-fg			    "#d9e0ee"
 set inputbar-bg 		    "#302d41"
 
-set recolor-lightcolor		"#1e1d2f"
+set recolor-lightcolor		"rgba(0,0,0,0)"
 set recolor-darkcolor		"#d9e0ee"
 
 set index-fg			    "#d9e0ee"
